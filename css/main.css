@@ -1,0 +1,337 @@
+*{
+    font-family: 'Roboto', sans-serif; 
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+header{
+height:77px;
+}
+.color{
+     color:#2A505D;
+}
+.logo{
+    width:15em;
+}
+.navegador {
+    padding: 1%;
+    background-color:#314B56;
+    border: 1px solid #314B56;
+}
+.navegador ul li a{
+    color:white!important;
+}
+.navegador ul li a:hover{
+    color:#7EB742!important;
+}
+.green{
+    background-color:#7EB742;
+    border-radius:15%;
+}
+.margin-nav{
+    margin-right:1.5em;
+}
+/* Hero*/
+.text-intro{
+    color: white;
+    font-size: 3em;
+    padding: 20%;
+    text-align: center;
+}
+.barra-blue {
+    height: 4em;
+    background-color:#2A505D;
+}
+.opacidad{
+    background-color: rgba(128,128,128,.4);
+    height:1em;
+    width:100%;
+    position:absolute;
+    top:41em;
+}
+.funcionamiento {
+    text-align:center;
+}
+.funcionamiento h2{
+    color:#2A505D;
+    font-size:1.5em;
+    padding:3em;
+}
+.content-port{
+    padding:10% 10% 10% 1%;
+    height:30em;
+    background: url("../images/laptopsfondo.png");
+    background-size: cover;
+}
+.content-port a{
+    text-decoration: none;
+    display:block;
+    padding:1%;
+    color:white;
+}
+.banner{
+    background: url("../images/commiunities.jpeg");
+    background-repeat: no-repeat;
+    height:37em;
+    background-position: 0px -235px;
+    background-size: 100%;
+}
+.circular{
+    border:1px solid black;
+    width:18px;
+    border-radius:50px;
+}
+/*
+.circle .circular{
+    position:absolute;
+    right:90px;*/
+.icons{
+    margin-bottom:7em;
+}
+/* Registro */
+.texto-superior{
+    padding: 3em 2em 0 2em;
+}
+.texto-princ{
+    font-size: 1.5em;
+    padding:1.5em;
+}
+
+.first-label label {
+    padding:6% 0 1% 0;
+    font-size:0.8em;
+}
+.border input {
+    border-radius: 0;
+    height: 4em;
+}
+.text-form{
+    font-size: 0.7em;
+    padding-top:1%;
+}
+
+.espaciado .day {
+    width: 9em;
+    margin-right:2em;
+}
+.espaciado .month{
+    width:17em;
+}
+.espaciado .year {
+    width: 9em;
+    margin-left:2em;
+}
+.formulario input{
+    width:30px;
+    background-color:white;
+}
+.formulario .label {
+    color:#2A505D;
+    position:relative;
+    bottom:2.5em;
+    padding-left:2.5em;
+}
+
+/*
+.formulario label:before {
+    content:"";
+    width:2.2em;
+    height:2.2em;
+    display:inline-block;
+    background:none;
+    border: 1.5px solid gray;
+    border-radius:60%;
+    position:absolute;
+    left:1.5em;
+
+}*/
+.checkbox{
+    padding:5%;
+}
+.button-register{
+    padding:1.7em;
+    width:20em;
+    border:none;
+    color:white;
+    background-color:#2A505D;
+    margin-bottom:10em;
+}
+/* Acceso*/
+.acceso{
+    text-align:center;
+    padding:4em 0;
+    font-size:1.5em;
+}
+.acceso input{
+    margin-top:3em;
+}
+.button-access{
+    width:100%;
+    background-color:#2A505D;
+    color:white;
+    border:none;
+    padding:0.8em;
+    margin-top:2em;
+    font-size:20px;
+}
+.form-access p {
+    margin-top:1em;
+    padding:0.3em;
+}
+.form-access a{
+    margin-top:1em;
+    padding:0.3em;
+    color:#2A505D;
+    text-decoration:none;
+}
+.hover-access:hover{
+    color:gray;
+}
+
+/*usuario-uno*/
+.caja{
+    border:1px solid #2A505D;
+    margin-top:3em;
+    padding:0!important;
+    font-size:1.2em;
+}
+
+.icono-home{
+    position: absolute;
+    left: 87%;
+    top: 7%;
+}
+.maps{
+    border:4px solid #939598;
+    margin-top:5em;
+}
+.button-usuario{
+    width:50%;
+    float:left;
+    text-align:center;
+    border:none;
+    color:white;
+    background-color:#1C4A57;
+    padding:1em;
+    margin-top:1.5em;
+}
+.button-usuario:hover{
+    background-color:black;
+}
+.button-editar{
+    width:50%;
+    text-align:center;
+    border:none;
+    color:white;
+    background-color:#596E7B;
+    padding:1em;
+    margin-top:1.5em;
+}
+.button-editar:hover{
+    background-color:black;
+}
+.caja p{
+    margin-left:1em;
+    margin-top:0.5em;
+}
+.comunidad{
+    padding-top:1.5em;
+}
+.caja span {
+    margin-left:5em;
+}
+.caja .span {
+    margin-left:4.3em;
+}
+.button-gray{
+    background-color:#939598;
+    width:100%;
+    text-align:center;
+    border:none;
+    color:white;
+    padding:1em;
+    margin-top:1.5em;
+}
+.usuario{
+    width:100%;
+}
+.below{
+    margin-top:4em;
+}
+.user{
+    padding-bottom:5em;
+}
+/*  Usuario-dos  */
+
+.map-insert iframe{
+    width:100%;
+}
+.header-map{
+    height:500px;
+}
+
+.icon-home{
+    margin-left:5em;
+    position:relative;
+    top:-8em;
+}
+.gray-home{
+    border:4px solid white;
+}
+.community{
+    margin-left:14.5em;
+    position:relative;
+    top:2em;
+    font-size:1.2em;
+}
+.icon-hometwo{
+    position: absolute;
+    left: 85%;
+    top:37%;
+}
+.box{
+   border:1px solid #2A505D;
+   font-size:1.2em;
+   margin-top:12em;
+   margin-bottom:10em;
+}
+.box p{
+     margin-left:1em;
+    margin-top:0.5em;
+}
+.box span{
+    margin-left:5em;
+}
+
+/*  Usuario tres  */
+.margin-table{
+    margin-top:7em;
+}
+
+/*  Footer  */
+footer{
+    padding: 10px 0;
+    border-top: 1px #dedede solid;
+    background: #f7f7f7;
+    text-align: center;
+}
+
+footer .rights{
+    color: #3b3b3b;
+    font-size: 14px;
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+footer .rights a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #2D2D5E;
+}
+
+footer a{
+    color: #2D2D5E;
+}
+footer img{
+    max-width: 10%;
+}

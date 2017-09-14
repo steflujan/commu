@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico">
+	<title>Registro</title>
+
+	<!-- Codespace Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<!-- Codespace Media Queries -->
+	<link rel="stylesheet" href="css/queries.css">
+	<!-- Codespace CSS -->
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="color">
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top navegador">
+            <div class="container"> 
+                <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> 
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                            <a class="navbar-brand " href="index.html"><img class=" logo col-xs-5 col-sm-5 col-md-5" src="images/logo-commiunities.png" alt=""></a>
+                 </div>
+                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a class="margin-nav" href="#">ayuda</a></li>
+                            <li><a class="margin-nav" href="acceso.html">acceder</a></li>
+                            <li><a class="margin-nav" href="registro.html">registro</a></li>
+                            <li><a class="margin-nav green"  href="#">idiomas</a></li>
+                        </ul>
+                    </div>       
+                </div>        
+        </nav>
+    </header>
+    <section>
+        <p class="text-center texto-superior"><b>Si ya estás registrado, haz click en: <a href="#">Ingresar ahora</a></b></p>
+        <h2 class="text-center texto-princ"><b>Regístrate en Commiunities</b></h2>
+        <form>
+        <div class="container border">
+            <div class="first-label">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <label>NOMBRE:</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1">
+                        
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <label>APELLIDOS:</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1">
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <label>DIRECCIÓN DE CORREO ELECTRÓNICO:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1">
+                            <p class="text-form">*Enviaremos la confirmación de tu registro a este correo</p>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <label>TELÉFONO:</label>
+                            <input type="number" class="form-control" id="exampleInputEmail1">
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <label>CONTRASEÑA:</label>
+                            <input type="password" class="form-control" id="exampleInputEmail1">
+                            <p class="text-form">*Ha de tener al menos 6 letras y 1 número, por favor</p>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <label for ="exampleInputEmail1">CONFIRMAR CONTRASEÑA:</label>
+                            <input type="password" class="form-control" id="exampleInputEmail1">
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <label>FECHA DE NACIMIENTO:</label>
+                            <div class="form-inline espaciado">
+                                <div class="form-group">
+                                    <input type="text" class="form-control day" placeholder="Día">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control month" id="exampleInputPassword3" placeholder="Mes">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control year" id="exampleInputPassword3" placeholder="Año">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <label>SEXO:</label>
+                                <div class="formulario text-center">
+                                <div class="col-md-6">
+                                    <input type="radio" name="sexo" id="hombre">
+                                    <label class="label" for="hombre">Hombre</label>
+                                </div> 
+                                <div class="col-md-6">   
+                                    <input type="radio" name="sexo" id="mujer">
+                                    <label class="label" for="mujer">Mujer</label>
+                                </div>
+                                 </div> 
+                            </label>
+                        </div>
+                </div>
+            </div> 
+        </div>
+        <div class="container">
+                <div class="row checkbox text-center">
+                     <label>
+                     <input type="checkbox">Estoy de acuerdo con los Términos y la Política de Privacidad
+                    </label>
+                </div>
+                <div class="row text-center">
+                    <button class="button-register" type="submit">Únete a Commiunities</button>
+                </div>
+        </div>    
+        </form>
+    </section>        
+	<!--  Scripts  -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</div>
+</body>
+
+</html>
